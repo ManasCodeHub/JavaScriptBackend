@@ -1,0 +1,33 @@
+Introduction
+
+Client-Server communication is shown;
+Every path on the internet is routed under "/" (home route);
+e.g  /youtube /google
+
+//Express is a package which is responsible for listening and 
+responding on the client
+
+Implementation 
+
+"npm init" this command is used to initialize the package manager
+which further allows to install packages which comes under internet
+
+index.js is the entry point of the project (from where it starts)
+
+"npm install express" command installs express
+
+"npm i dot env" is a package which is used in production for encapsulation purpose 
+in order to use the file you will need to import it in the index.js file using:
+require("dotenv").config() also 
+
+app.listen(process.env.PORT, () => {
+  console.log(`Example app listening on port ${port}`);
+});
+
+this code need to be modified
+
+
+Dependencies:
+    1. Node Js
+    2. Express
+    3. Mongoose
